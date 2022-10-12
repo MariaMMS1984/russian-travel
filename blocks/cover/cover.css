@@ -7,12 +7,12 @@
     width: 100%;
     background-color: #2A2C2F;
     direction: column;
-    height: 750px;
+    height: 720px;
 }
 
 @media screen and (min-width:1400px) {
     .cover {
-        height: 870px;
+        height: 920px;
     }
 }
 
