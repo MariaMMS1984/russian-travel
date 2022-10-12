@@ -1,0 +1,9 @@
+@media screen and (min-width:425px) {
+    .place__website {
+        grid-area: place__website;
+        margin: 0 0 0 8%;
+        padding-top: 4%;
+        gap: 5%;
+        max-height: 152px;
+    }
+}

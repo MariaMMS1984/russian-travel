@@ -1,0 +1,31 @@
+.place {
+    color: #FFFFFF;
+    width: 84%;
+    margin: 35px 8% 0;
+
+}
+
+@media screen and (min-width:425px) {
+    .place {
+        display: grid;
+        justify-content: start;
+        grid-row-gap: 0;
+        grid-column-gap: 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 0.50fr);
+        grid-template-areas:
+            "place__title place__website"
+            "place__image place__paragraph1"
+            "place__image place__paragraph2";
+    }
+}
+
+
+
+@media screen and (max-width:424px) {
+    .place {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
