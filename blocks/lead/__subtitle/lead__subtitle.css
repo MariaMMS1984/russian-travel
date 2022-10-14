@@ -5,43 +5,37 @@
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
-    width: 20%;
-    margin: 0 0 40px;
-    padding: 0 auto;
+    max-width: 640px;
+    margin: 0 320px;
+    padding: 0;
     text-align: center;
+    box-sizing: border-box;
+    white-space: pre-line;
 }
 
-@media screen and (min-width:1280px) {
+
+@media screen (max-width:1024px) {
     .lead__subtitle {
-        width: 40%;
+        margin-left: 192px;
+        margin-right: 192px;
     }
 }
 
-@media screen and (min-width:1024px) and (max-width:1279px) {
+@media screen and (max-width:768px) {
     .lead__subtitle {
-        width: 65%;
-    }
-}
-
-@media screen and (min-width:769px) and (max-width:1023px) {
-    .lead__subtitle {
-        width: 70%;
-    }
-}
-
-@media screen and (min-width:425px) and (max-width:768px) {
-    .lead__subtitle {
-        width: 85%;
-        font-size: 22px;
-        line-height: 26px;
+        margin-left: 64px;
+        margin-right: 64px;
     }
 }
 
 
 @media screen and (max-width:424px) {
     .lead__subtitle {
+        margin-left: 16px;
+        margin-right: 16px;
+        max-width: 288px;
         font-size: 16px;
         line-height: 20px;
-        width: 90%;
+
     }
 }

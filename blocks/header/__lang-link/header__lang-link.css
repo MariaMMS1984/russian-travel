@@ -5,19 +5,26 @@
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
-    padding-left: 10px;
-    padding-top: 25%;
+    text-align: right;
+    max-width: 30px;
 }
 
 .header__lang-link:nth-of-type(2) {
     text-decoration: none;
 }
 
-@media screen and (max-width: 424px) {
+
+@media screen and (max-width:320px) {
     .header__lang-link {
-        padding-left: 20px;
         font-size: 18px;
         line-height: 20px;
-        padding-top: 18%;
+        max-width: 22px;
+    }
+}
+
+@media screen and (max-width:270px) {
+    .header__lang-link {
+        font-size: 12px;
+        line-height: 12px;
     }
 }

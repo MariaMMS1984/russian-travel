@@ -1,4 +1,27 @@
-@media screen and (max-width:424px) {
+.logo_place_header {
+    margin: 28px 0 0 48px;
+    max-width: 176px;
+    padding: 0;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .logo_place_header {
+        margin-left: 24px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    .logo_place_header {
+        margin-left: 16px;
+        margin-top: 16px;
+        max-width: 142px;
+    }
+}
+
+@media screen and (max-width:280px) {
     .logo_place_header {
         width: 50%;
     }

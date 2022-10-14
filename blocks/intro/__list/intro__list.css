@@ -5,27 +5,36 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-    width: 65%;
-    margin: 15px 0 0 10%;
-    padding: 0 auto;
+    margin: 33px 442px 92px 148px;
     text-align: start;
+    list-style-type: none;
+    padding: 0;
 }
 
-@media screen and (min-width:425px) and (max-width:768px) {
+@media screen and (max-width:1024px) {
     .intro__list {
-        width: 90%;
-        margin: 15px 0 0 5%;
-        font-size: 10px;
-        line-height: 16px;
+        margin-left: 48px;
+        margin-right: 286px;
     }
 }
 
 
-@media screen and (max-width:424px) {
+
+
+@media screen and (max-width:768px) {
     .intro__list {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-bottom: 88px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    .intro__list {
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
         width: 90%;
-        margin: 15px 0 0 5%;
-        font-size: 10px;
-        line-height: 16px;
     }
 }

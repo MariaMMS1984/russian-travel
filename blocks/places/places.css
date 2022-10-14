@@ -2,6 +2,36 @@
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 11%;
+    margin: 92px 148px 0;
+    gap: 80px;
+}
 
+@media screen and (max-width:1024px) {
+    .places {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .places {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 88px;
+        margin-bottom: 90px;
+        gap: 73px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    .places {
+        margin-top: 64px;
+        margin-bottom: 66px;
+        margin-left: 0;
+        margin-right: 0;
+        gap: 50px;
+
+    }
 }
