@@ -16,6 +16,21 @@
     }
 }
 
+@media screen and (max-width:540px) {
+    .place__title {
+        max-width: 160px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .place__title {
+        max-width: 65px;
+    }
+}
+
+
 @media screen and (max-width:320px) {
     .place__title {
         margin-bottom: 32px;
@@ -23,5 +38,6 @@
         margin-right: 16px;
         font-size: 32px;
         line-height: 35px;
+
     }
 }

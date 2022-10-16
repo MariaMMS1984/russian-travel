@@ -24,6 +24,12 @@
     }
 }
 
+@media screen and (max-width:540px) {
+    .place {
+        grid-column-gap: 2px;
+    }
+}
+
 
 @media screen and (max-width:320px) {
     .place {
