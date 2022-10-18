@@ -1,17 +1,19 @@
 .place__paragraph {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
-    gap: 27px;
+    gap: 26px;
     margin: 0;
     grid-area: place__paragraph;
     padding: 0;
     justify-content: space-between;
-    text-align: start;
-    align-self: flex-start;
+    display: grid;
+}
 
+.places__paragraph:last-child {
+    margin: 0;
 }
 
 
@@ -19,6 +21,14 @@
     .place__paragraph {
         font-size: 16px;
         gap: 25px;
+
+    }
+}
+
+
+@media screen and (max-width:540px) {
+    .place__paragraph {
+        word-wrap: break-word;
     }
 }
 

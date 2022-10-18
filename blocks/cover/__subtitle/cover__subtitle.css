@@ -3,35 +3,18 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    white-space: pre-line;
     box-sizing: border-box;
-    margin-bottom: 245px;
-    margin-left: 412px;
-    margin-right: 412px;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    margin-top: 0;
+    align-self: center;
+    max-width: 360px;
 }
 
-@media screen and (max-width:1024px) {
-    .cover__subtitle {
-        margin-left: 332px;
-        margin-right: 332px;
-        margin-bottom: 195px;
-    }
-}
-
-@media screen and (max-width:860px) {
-    .cover__subtitle {
-        margin-left: 204px;
-        margin-right: 204px;
-        margin-bottom: 115px;
-    }
-}
 
 @media screen and (max-width:320px) {
     .cover__subtitle {
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-bottom: 33px;
         font-size: 14px;
         line-height: 16px;
+        max-width: 288px;
     }
 }

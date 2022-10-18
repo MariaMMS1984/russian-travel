@@ -9,7 +9,9 @@
         "place__title place__website"
         "place__image place__paragraph";
     color: #FFFFFF;
+
 }
+
 
 
 @media screen and (max-width:1024px) {
@@ -21,12 +23,15 @@
 @media screen and (max-width:768px) {
     .place {
         grid-column-gap: 28px;
+
+
     }
 }
 
 @media screen and (max-width:540px) {
     .place {
         grid-column-gap: 2px;
+
     }
 }
 
@@ -36,10 +41,9 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin: 0;
-        padding: 0;
-        justify-content: space-between;
         grid-row-gap: 0;
         grid-column-gap: 0;
+        justify-content: start;
     }
+
 }

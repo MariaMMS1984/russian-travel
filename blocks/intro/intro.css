@@ -3,4 +3,19 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 92px 0 0;
+}
+
+@media screen and (max-width:768px) {
+    .intro {
+        margin-top: 88px;
+    }
+}
+
+
+@media screen and (max-width:424px) {
+    .intro {
+        margin-top: 64px;
+
+    }
 }

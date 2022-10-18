@@ -13,7 +13,7 @@
 
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1030px) {
     .photo-grid__item {
         max-width: 300px;
     }
@@ -22,16 +22,10 @@
 
 @media screen and (max-width:950px) {
     .photo-grid__item {
-        max-width: 28vw;
-    }
-}
-
-
-@media screen and (max-width:768px) {
-    .photo-grid__item {
         max-width: 352px;
     }
 }
+
 
 @media screen and (max-width:750px) {
     .photo-grid__item {
@@ -40,14 +34,9 @@
 }
 
 
+
 @media screen and (max-width:320px) {
     .photo-grid__item {
         max-width: 288px;
-    }
-}
-
-@media screen and (max-width:280px) {
-    .photo-grid__item {
-        max-width: 90%;
     }
 }

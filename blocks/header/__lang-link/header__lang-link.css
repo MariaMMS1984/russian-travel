@@ -1,17 +1,22 @@
 .header__lang-link {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
     text-align: right;
-    max-width: 30px;
-}
-
-.header__lang-link:nth-of-type(2) {
     text-decoration: none;
 }
+
+.header__lang-link:hover {
+
+    transition: 0.35s;
+
+    opacity: 80%;
+
+}
+
 
 
 @media screen and (max-width:320px) {
@@ -19,12 +24,5 @@
         font-size: 18px;
         line-height: 20px;
         max-width: 22px;
-    }
-}
-
-@media screen and (max-width:270px) {
-    .header__lang-link {
-        font-size: 12px;
-        line-height: 12px;
     }
 }
