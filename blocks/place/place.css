@@ -9,6 +9,7 @@
         "place__title place__website"
         "place__image place__paragraph";
     color: #FFFFFF;
+    max-width: 984px;
 
 }
 
@@ -17,6 +18,7 @@
 @media screen and (max-width:1024px) {
     .place {
         grid-column-gap: 32px;
+        max-width: 928px;
     }
 }
 

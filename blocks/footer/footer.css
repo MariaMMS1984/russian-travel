@@ -12,7 +12,7 @@
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:830px) {
     .footer {
         margin-top: 88px;
         margin-left: 24px;
@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:730px) {
     .footer {
         flex-direction: column;
         margin-top: 64px;

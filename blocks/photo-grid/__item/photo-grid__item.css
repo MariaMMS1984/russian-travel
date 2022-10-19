@@ -1,42 +1,6 @@
 .photo-grid__item {
     object-fit: cover;
     object-position: 0px 0px;
-    max-width: 284px;
+    width: 100%;
 
-}
-
-@media screen and (max-width:1240px) {
-    .photo-grid__item {
-        max-width: 240px;
-    }
-}
-
-
-
-@media screen and (max-width:1030px) {
-    .photo-grid__item {
-        max-width: 300px;
-    }
-}
-
-
-@media screen and (max-width:950px) {
-    .photo-grid__item {
-        max-width: 352px;
-    }
-}
-
-
-@media screen and (max-width:750px) {
-    .photo-grid__item {
-        max-width: 45vw;
-    }
-}
-
-
-
-@media screen and (max-width:320px) {
-    .photo-grid__item {
-        max-width: 288px;
-    }
 }

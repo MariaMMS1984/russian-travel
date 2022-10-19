@@ -1,41 +1,5 @@
 .place__paragraph {
-    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
-    gap: 26px;
     margin: 0;
-    grid-area: place__paragraph;
     padding: 0;
-    justify-content: space-between;
-    display: grid;
-}
 
-.places__paragraph:last-child {
-    margin: 0;
-}
-
-
-@media screen and (max-width:768px) {
-    .place__paragraph {
-        font-size: 16px;
-        gap: 25px;
-
-    }
-}
-
-
-@media screen and (max-width:540px) {
-    .place__paragraph {
-        word-wrap: break-word;
-    }
-}
-
-
-@media screen and (max-width:320px) {
-    .place__paragraph {
-        margin-left: 16px;
-        margin-right: 16px;
-    }
 }
