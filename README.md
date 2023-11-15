@@ -5,7 +5,7 @@
 
 ## Ссылки на проект
 
-Адрес репозитория: https://github.com/MariaMMS1984/russian-travel.
+Сайт доступен по адресу: https://mariamms1984.github.io/russian-travel/.
 
 ## Стек технологий:
 - HTML5;
